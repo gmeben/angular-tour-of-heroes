@@ -10,8 +10,8 @@ export class HeroService {
 
   constructor() { }
 
-  getHeroes(): Observable<Hero[]> {
+  getHeroes(): Observable<Hero[]> { 
     return of (HEROES)
   }
-  
+
 }
